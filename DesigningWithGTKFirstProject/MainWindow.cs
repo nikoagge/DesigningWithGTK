@@ -8,9 +8,18 @@ public partial class MainWindow : Gtk.Window
         Build();
     }
 
-    protected void OnDeleteEvent(object sender, DeleteEventArgs a)
+    protected void onDeleteEvent(object sender, DeleteEventArgs a)
     {
         Application.Quit();
         a.RetVal = true;
+    }
+
+    protected void exit(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void clickedToButton(object sender, EventArgs e)
+    {
     }
 }

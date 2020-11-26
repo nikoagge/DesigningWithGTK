@@ -8,8 +8,8 @@ namespace DesigningWithGTKFirstProject
         public static void Main(string[] args)
         {
             Application.Init();
-            MainWindow win = new MainWindow();
-            win.Show();
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
             Application.Run();
         }
     }
